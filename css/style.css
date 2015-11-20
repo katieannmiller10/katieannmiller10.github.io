@@ -857,7 +857,7 @@ a:hover {
   margin-left: -9px;
   background: #fff;
   border-radius: 10px;
-  border: 4px solid #0986B4 ;
+  border: 4px solid #e62739 ;
   /*z-index: 2;*/
 }
 
@@ -909,18 +909,19 @@ a:hover {
   margin: 1em 1em 0 1em;
   padding: 1em;
   color: #e1e8f0;
-  /*z-index: 2;*/
 }
 
 }
 
-@media screen and (min-width: 400px ?? max-width: 660px) {
 
-.direction-l .desc,
-.direction-r .desc {
-  margin: 1em 4em 0 4em;
+@media screen and (max-width: 630px) {
+
+.desc {
+  visibility: hidden;
 }
-
+.time-wrapper {
+  padding-top: 10px;
+}
 }
 
 
