@@ -61,6 +61,8 @@ a {
 /* Menu Style & Arrow
 /*******************************************/
 
+
+
 /*Menu toggle button*/
 #menu-btn{ 
   position: fixed; 
@@ -159,6 +161,8 @@ a {
 }
 
 
+
+
 .start-arrow {
   width: 4%;
 
@@ -217,6 +221,8 @@ a {
     height:670px;
   }
 }
+
+
 
 .profile {
   background-color: #e62739;
@@ -553,7 +559,7 @@ button {
 }
 }
 
-.Contact {
+.contact{
   height: 400px;
   background-color: #9068be;
 }
@@ -880,7 +886,7 @@ a:hover {
   display: block;
   position: relative;
   margin: 4px 0 0 0;
-  /*z-index: 4;*/
+  
 }
 
 .direction-l .time-wrapper {
